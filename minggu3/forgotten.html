@@ -1,0 +1,67 @@
+<!-- 
+    Nama File   : forgotten.html
+    NIM         : 11S20017
+    Kelas       : 13IF1
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password_11S20017</title>
+</head>
+
+<body>
+    <table></table>
+    <b><h1>Form Reset Password</h1></b>
+    <b><p>Alur Reset Password:</p></b>
+
+    <ol>
+        <li>Mahasiswa mengisi form Lupa Password</li>
+        <li>Mahasiswa mengisi nama lengkap</li>
+        <li>Lalu mengisi Nomor Induk Mahasiswa</li>
+        <li>Mahasiswa mengisi email yang digunakan</li>
+        <li>Mahasiswa mengisi nomor whatsapp yang aktif untuk dikonfirmasikan oleh Admin</li>
+        <li>Admin mereset password Akun Mahasiswa dan akan dikonfirmasikan ke Mahasiswa</li>
+        <li>Proses Selesai, akun Email siap digunakan Mahasiswa kembali</li>
+        <li>Silakan isi Form Dibawah ini</li>
+    </ol>
+
+    <h2>Form Pendataan</h2>
+    <p>Bagi mahasiswa yang lupa password emailnya silakan isi datanya disini</p>
+
+    <table border="10" cellpadding="10" cellspacing="0" width="500">
+        <tr>
+            <td>
+                <form action="" method="get">
+                    <label for="Nama">Nama Lengkap <font color="red">*</font></label>
+                    <br>
+                    <input type="text" id="Nama" pattern="[A-Za-z]{3,}" required>
+
+                    <br><br>
+                    <label for="NIM">Nomor Induk Mahasiswa <font color="red">*</font></label>
+                    <br>
+                    <input type="text" id="NIM" pattern="[A-Za-z0-9]{5,8}" required>
+
+                    <br><br>
+                    <label for="Email">Email yang digunakan <font color="red">*</font></label>
+                    <br>
+                    <input type="email" id="Email" required>
+
+                    <br><br>
+                    <label for="WA">Nomor Whatsapp Aktif <font color="red">*</font></label>
+                    <br>
+                    <input type="text" id="WA" pattern="[0-9+]{10,13}" required>
+
+                    <br><br>
+                    <input type="submit" value="Kirim">
+                </form>
+            </td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
